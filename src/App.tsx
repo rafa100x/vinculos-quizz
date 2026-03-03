@@ -440,16 +440,21 @@ const LandingPage = () => {
                 </div>
               </div>
               
-              <div className="flex flex-col items-center gap-4">
+              <div className="flex flex-col items-center gap-6">
                 <img 
                   src="https://cdn.shopify.com/s/files/1/0752/5194/1565/files/Captura_de_pantalla_2026-02-10_a_la_s_07.35.08.png?v=1770719727" 
                   alt="Sello de Seguridad" 
                   className="h-16 w-auto"
                   referrerPolicy="no-referrer"
                 />
-                <div className="flex gap-4 opacity-50 grayscale">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" className="h-4" referrerPolicy="no-referrer" />
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" className="h-6" referrerPolicy="no-referrer" />
+                <div className="flex flex-col items-center gap-2">
+                  <p className="text-[10px] text-white/40 uppercase tracking-widest font-bold">Pagá de forma segura con:</p>
+                  <img 
+                    src="https://cdn.shopify.com/s/files/1/0752/5194/1565/files/mercadopago_logo.jpg?v=1772498390" 
+                    alt="Mercado Pago" 
+                    className="h-10 w-auto rounded-sm"
+                    referrerPolicy="no-referrer"
+                  />
                 </div>
               </div>
             </div>
