@@ -314,7 +314,7 @@ const LandingPage = () => {
               <h2 className="text-4xl md:text-6xl font-black">Arsenal <span className="text-crimson">Extra</span></h2>
               <p className="text-white/50 font-mono uppercase tracking-widest text-sm">Bonos de Acción Inmediata</p>
             </div>
-            <div className="bg-white text-navy px-4 py-2 font-display font-black uppercase text-sm">Valor Total: $45.000+ ARS</div>
+            <div className="bg-white text-navy px-4 py-2 font-display font-black uppercase text-sm">Valor Total: +$100.000 ARS</div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -422,7 +422,7 @@ const LandingPage = () => {
             </div>
 
             <div className="space-y-2">
-              <div className="text-white/30 line-through text-2xl font-display">$35.000 ARS</div>
+              <div className="text-white/30 line-through text-2xl font-display">$100.000 ARS</div>
               <div className="text-7xl font-black text-white">$18.990 <span className="text-2xl font-display text-white/50">ARS</span></div>
               <p className="text-crimson font-bold uppercase tracking-widest text-sm">Pago único. Sin suscripciones.</p>
             </div>
